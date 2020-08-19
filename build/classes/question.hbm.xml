@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping package="models">
+ 	<class name="Question" table="question">
+ 		<id name="id" column="id" >
+ 			<generator class="increment"></generator>
+ 		</id>	
+ 		
+ 	
+ 		<property name="subject"></property>
+<property name="question"></property>
+<property name="marks"></property>
+<property name="rdate"></property>
+<property name="unit"></property>
+<property name="answer"></property>
+ 		
+ 	</class>
+ </hibernate-mapping>
